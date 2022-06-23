@@ -16,3 +16,11 @@ function createGridContainer(grid, className) {
         
     }
 }
+
+
+// genero i songoli quadrati da mettere nel gridcontainer
+
+function createSquare(className, i) {
+    let gridSquare = document.createElement('div')
+}
+
