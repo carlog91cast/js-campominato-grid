@@ -19,10 +19,12 @@ body {
 }
 /* grid */
 
-#mine-camp{
+.grid{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid white;
+    border: 1px solid white; margin: 0 auto;
+    width: 650px;
+    height: 650px;
 }
 
 .square-grid {
