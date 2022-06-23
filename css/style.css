@@ -22,7 +22,8 @@ body {
 .grid{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid white; margin: 0 auto;
+    border: 1px solid black; 
+    margin: 0 auto;
     width: 650px;
     height: 650px;
 }
@@ -30,4 +31,5 @@ body {
 .square-grid {
     display: flex;
     width: calc(100% / 10);
+    border: 1px solid black;
 }
