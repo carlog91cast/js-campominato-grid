@@ -17,24 +17,26 @@ body {
     padding: 0 30px;
     margin-left: 50%;
 }
+
 /* grid */
 
-.grid{
+.grid {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black; 
+    border: 1px solid black;
     margin: 0 auto;
     width: 650px;
     height: 650px;
 }
 
 .square-grid {
-    display: flex;
+
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
     background-color: green;
 }
-.active{
+
+.active {
     background-color: aqua;
 }
